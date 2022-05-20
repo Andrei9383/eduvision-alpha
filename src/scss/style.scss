@@ -4,7 +4,7 @@
 
 
 .hero {
-  background-color: #092967;
+  background-color: #648381;
   position: relative;
   height: 100vh;
   overflow: hidden;
@@ -27,13 +27,13 @@
   left: 45vw;
   width: 10px;
   height: 10px;
-  border: solid 1px darken(#0040C1, 8%);
+  border: solid 1px darken(#8ACB88, 8%);
   transform-origin: top left;
   transform: scale(0) rotate(0deg) translate(-50%, -50%);
   animation: cube 12s ease-in forwards infinite;
   
   &:nth-child(2n) {
-    border-color: lighten(#0040C1, 10%);
+    border-color: lighten(#8ACB88, 10%);
   }
   
   &:nth-child(2) {
